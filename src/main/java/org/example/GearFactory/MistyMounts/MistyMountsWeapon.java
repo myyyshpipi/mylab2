@@ -2,9 +2,7 @@ package org.example.GearFactory.MistyMounts;
 
 import org.example.GearFactory.Weapon;
 import org.example.GearFactory.WeaponType;
-
-import static org.example.GearFactory.WeaponType.AXE;
-import static org.example.GearFactory.WeaponType.SWORD;
+import static org.example.GearFactory.WeaponType.*;
 
 public class MistyMountsWeapon implements Weapon {
     WeaponType weapon;
@@ -23,5 +21,10 @@ public class MistyMountsWeapon implements Weapon {
     @Override
     public void setWeapon(WeaponType weapon) {
         this.weapon = weapon;
+    }
+
+    @Override
+    public WeaponType getWeapon() {
+        return weapon;
     }
 }

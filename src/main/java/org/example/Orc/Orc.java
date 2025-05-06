@@ -16,10 +16,6 @@ public class Orc {
     private boolean hasHorn = false;
     private boolean hasBanner = false;
 
-    //public Orc() {
-    //    super();
-    //}
-
     public Orc(OrcRace race, OrcType type, String name, Weapon weapon, Armor armor, Banner banner,
                int power, int audacity, int intelligence, int health, boolean hasHorn, boolean hasBanner) {
         this.race = race;

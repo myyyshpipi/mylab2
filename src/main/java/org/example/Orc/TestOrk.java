@@ -8,10 +8,8 @@ import static org.example.Orc.OrcType.*;
 public class TestOrk {
     public static void main(String[] args) {
         //OrcBuilder builder = new MordorOrcBuilder();
-        OrcBuilder builder = new MistyMountsOrcBuilder();
-        //OrcBuilder builder = new DolguldurOrcBuilder();
-
-        //OrcDirector director  = new OrcDirector(builder);
+        //OrcBuilder builder = new MistyMountsOrcBuilder();
+        OrcBuilder builder = new DolguldurOrcBuilder();
 
         OrcGearFactory gearFactory = new MordorGearFactory();
 

@@ -9,7 +9,8 @@ public class TestOrcBuilderFactory {
     public static void main(String[] args) {
 
         //OrcDirector director1 = new OrcDirector(OrcRace.MORDOR_ORC);
-        OrcDirector director1 = new OrcDirector(OrcRace.MISTYMOUNTS_ORC);
+        //OrcDirector director1 = new OrcDirector(OrcRace.MISTYMOUNTS_ORC);
+        OrcDirector director1 = new OrcDirector(OrcRace.DOLGULDUR_ORC);
 
         Orc orc1 = director1.createBasicOrc();
         Orc orc2 = director1.createScourOrc();

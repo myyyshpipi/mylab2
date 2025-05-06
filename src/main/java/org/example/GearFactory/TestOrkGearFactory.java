@@ -15,8 +15,7 @@ public class TestOrkGearFactory {
 
         Weapon orcWeapon = factory.createWeapon();
         orcWeapon.setWeapon(WeaponType.BOW);
-
-
+        System.out.println(orcWeapon.getWeapon());
 
     }
 }

@@ -12,6 +12,7 @@ public class MordorWeapon implements Weapon {
         setWeapon(SWORD);
     }
 
+    @Override
     public WeaponType getWeapon() {
         return weapon;
     }
