@@ -7,6 +7,7 @@ import org.example.View.MainWindow;
  */
 public class Mylab2 {
     public static void main(String[] args) {
+        //
         new MainWindow().setVisible(true);
 
 
