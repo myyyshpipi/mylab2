@@ -15,7 +15,7 @@ public class OrcDirector {
     public OrcDirector(OrcRace race) {
         setOrcBuilder(race);
     }
-
+    // Фабричный метод
     public void setOrcBuilder(OrcRace race) {
         switch (race) {
             case MORDOR_ORC:

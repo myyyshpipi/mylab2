@@ -19,6 +19,11 @@ public class DolguldurWeapon implements Weapon {
     }
 
     @Override
+    public WeaponType getWeapon() {
+        return weapon;
+    }
+
+    @Override
     public String toString() {
         return "DolguldurWeapon{" +
                 "weapon=" + weapon +
