@@ -55,10 +55,10 @@ public class PanelAddView extends JPanel {
         // Панель для кнопок
         JPanel buttonPanel = new JPanel(new FlowLayout(FlowLayout.CENTER));
         addButton = new JButton("New Orc");
-        randomButton = new JButton("Random Orc");
+        //randomButton = new JButton("Random Orc");
 
         buttonPanel.add(addButton);
-        buttonPanel.add(randomButton);
+        //buttonPanel.add(randomButton);
 
         // Добавляем панели в основную панель
         add(inputPanel, BorderLayout.CENTER);
